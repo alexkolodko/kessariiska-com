@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+	<title>test gallery</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<link rel="stylesheet" href="bi/blueimp-gallery.min.css">
+
+</head>
+<body>
+<h1>blueimp Gallery</h1>
+
+<!-- The Gallery as lightbox dialog, should be a child element of the document body -->
+<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+</div>
+
+
+<div id="links">
+    <a href="photo/items/kessariiska-items-1.jpg" title="Banana">
+        <img src="photo/items/thumbs/kessariiska-items-1.jpg" alt="Banana">
+    </a>
+    <a href="photo/items/kessariiska-items-2.jpg" title="Apple">
+        <img src="photo/items/thumbs/kessariiska-items-2.jpg" alt="Apple">
+    </a>
+    <a href="photo/items/kessariiska-items-3.jpg" title="Orange">
+        <img src="photo/items/thumbs/kessariiska-items-3.jpg" alt="Orange">
+    </a>
+</div>
+
+
+
+<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="bi/blueimp-gallery.min.js"></script>
+<script>
+document.getElementById('links').onclick = function (event) {
+    event = event || window.event;
+    var target = event.target || event.srcElement,
+        link = target.src ? target.parentNode : target,
+        options = {index: link, event: event},
+        links = this.getElementsByTagName('a');
+    blueimp.Gallery(links, options);
+};
+</script>
+</body>
+</html>
