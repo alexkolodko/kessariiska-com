@@ -8,8 +8,12 @@
 	<link rel="stylesheet" type="text/css" href="js/jquery.fancybox.min.css">
 
 <style type="text/css">
-	@media all and (min-width: 800px) {
 
+a {
+  text-decoration: none;
+}
+
+@media all and (min-width: 800px) {
   .fancybox-thumbs {
     top: auto;
     width: auto;
@@ -28,60 +32,239 @@
   }
 
 }
+.ImageGrid > a {
+    padding: 4px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 33.33%;
+    -ms-flex: 1 0 33.33%;
+    flex: 1 0 33.33%;
+}
+.thmb{
+    width:300px;
+    height:300px;
+    object-fit: cover;
+    overflow: hidden;
+}
 </style>
 </head>
 <body>
-<h1>fancybox</h1>
+<h1>fancybox gallery</h1>
 
-<a href="photo/items/kessariiska-items-1.jpg" data-fancybox="images" data-caption="My caption">
-	<img src="photo/items/thumbs/kessariiska-items-1.jpg" alt="1" />
+<div class="ImageGrid">
+<a href="photo/items/kessariiska-items-1.jpg" data-fancybox="gallery" data-caption="My caption">
+	<img class="thmb"  src="photo/items/thumbs/kessariiska-items-1.jpg" alt="1" />
 </a>
 
-<a href="photo/items/kessariiska-items-2.jpg" data-fancybox="images" data-caption="My caption">
-	<img src="photo/items/thumbs/kessariiska-items-2.jpg" alt="2" />
+<a href="photo/items/kessariiska-items-2.jpg" data-fancybox="gallery" data-caption="My caption">
+	<img class="thmb"  src="photo/items/thumbs/kessariiska-items-2.jpg" alt="2" />
 </a>
 
-<a href="photo/items/kessariiska-items-3.jpg" data-fancybox="images" data-caption="My caption">
-	<img src="photo/items/thumbs/kessariiska-items-3.jpg" alt="1" />
+<a href="photo/items/kessariiska-items-3.jpg" data-fancybox="gallery" data-caption="My caption">
+	<img class="thmb"  src="photo/items/thumbs/kessariiska-items-3.jpg" alt="1" />
 </a>
 
-<a href="photo/items/kessariiska-items-4.jpg" data-fancybox="images" data-caption="My caption">
-	<img src="photo/items/thumbs/kessariiska-items-4.jpg" alt="2" />
+<a href="photo/items/kessariiska-items-4.jpg" data-fancybox="gallery" data-caption="My caption">
+	<img class="thmb"  src="photo/items/thumbs/kessariiska-items-4.jpg" alt="2" />
 </a>
 
-<a href="photo/items/kessariiska-items-5.jpg" data-fancybox="images" data-caption="My caption">
-	<img src="photo/items/thumbs/kessariiska-items-5.jpg" alt="1" />
+<a href="photo/items/kessariiska-items-5.jpg" data-fancybox="gallery" data-caption="My caption">
+	<img class="thmb"  src="photo/items/thumbs/kessariiska-items-5.jpg" alt="1" />
 </a>
 
-<a href="photo/items/kessariiska-items-6.jpg" data-fancybox="images" data-caption="My caption">
-	<img src="photo/items/thumbs/kessariiska-items-6.jpg" alt="2" />
+<a href="photo/items/kessariiska-items-6.jpg" data-fancybox="gallery" data-caption="My caption">
+	<img  class="thmb" src="photo/items/thumbs/kessariiska-items-6.jpg" alt="2" />
 </a>
 
-<a href="photo/items/kessariiska-items-7.jpg" data-fancybox="images" data-caption="My caption">
-	<img src="photo/items/thumbs/kessariiska-items-7.jpg" alt="1" />
+<a href="photo/items/kessariiska-items-7.jpg" data-fancybox="gallery" data-caption="My caption">
+	<img class="thmb"  src="photo/items/thumbs/kessariiska-items-7.jpg" alt="1" />
 </a>
 
-<a href="photo/items/kessariiska-items-8.jpg" data-fancybox="images" data-caption="My caption">
-	<img src="photo/items/thumbs/kessariiska-items-8.jpg" alt="2" />
+<a href="photo/items/kessariiska-items-8.jpg" data-fancybox="gallery" data-caption="My caption">
+	<img class="thmb"  src="photo/items/thumbs/kessariiska-items-8.jpg" alt="2" />
 </a>
 
-<a href="photo/items/kessariiska-items-9.jpg" data-fancybox="images" data-caption="My caption">
-	<img src="photo/items/thumbs/kessariiska-items-9.jpg" alt="1" />
+<a href="photo/items/kessariiska-items-9.jpg" data-fancybox="gallery" data-caption="My caption">
+	<img class="thmb"  src="photo/items/thumbs/kessariiska-items-9.jpg" alt="1" />
 </a>
 
-<a href="photo/items/kessariiska-items-10.jpg" data-fancybox="images" data-caption="My caption">
-	<img src="photo/items/thumbs/kessariiska-items-10.jpg" alt="2" />
+<a href="photo/items/kessariiska-items-10.jpg" data-fancybox="gallery" data-caption="My caption">
+	<img class="thmb"  src="photo/items/thumbs/kessariiska-items-10.jpg" alt="2" />
 </a>
 
-<a href="photo/items/kessariiska-items-11.jpg" data-fancybox="images" data-caption="My caption">
-	<img src="photo/items/thumbs/kessariiska-items-11.jpg" alt="1" />
+<a href="photo/items/kessariiska-items-11.jpg" data-fancybox="gallery" data-caption="My caption">
+	<img class="thmb" src="photo/items/thumbs/kessariiska-items-11.jpg" alt="1" />
 </a>
 
-<a href="photo/items/kessariiska-items-12.jpg" data-fancybox="images" data-caption="My caption">
-	<img src="photo/items/thumbs/kessariiska-items-12.jpg" alt="2" />
+<a href="photo/items/kessariiska-items-12.jpg" data-fancybox="gallery" data-caption="My caption">
+	<img class="thmb"  src="photo/items/thumbs/kessariiska-items-12.jpg" alt="2" />
 </a>
 
+<a href="photo/items/kessariiska-items-13.jpg" data-fancybox="gallery" data-caption="My caption">
+  <img class="thmb"  src="photo/items/thumbs/kessariiska-items-13.jpg" alt="1" />
+</a>
 
+<a href="photo/items/kessariiska-items-14.jpg" data-fancybox="gallery" data-caption="My caption">
+  <img class="thmb"  src="photo/items/thumbs/kessariiska-items-14.jpg" alt="2" />
+</a>
+
+<a href="photo/items/kessariiska-items-15.jpg" data-fancybox="gallery" data-caption="My caption">
+  <img class="thmb"  src="photo/items/thumbs/kessariiska-items-15.jpg" alt="1" />
+</a>
+
+<a href="photo/items/kessariiska-items-16.jpg" data-fancybox="gallery" data-caption="My caption">
+  <img  class="thmb" src="photo/items/thumbs/kessariiska-items-16.jpg" alt="2" />
+</a>
+
+<a href="photo/items/kessariiska-items-17.jpg" data-fancybox="gallery" data-caption="My caption">
+  <img class="thmb"  src="photo/items/thumbs/kessariiska-items-17.jpg" alt="1" />
+</a>
+
+<a href="photo/items/kessariiska-items-18.jpg" data-fancybox="gallery" data-caption="My caption">
+  <img class="thmb"  src="photo/items/thumbs/kessariiska-items-18.jpg" alt="2" />
+</a>
+
+<a href="photo/items/kessariiska-items-19.jpg" data-fancybox="gallery" data-caption="My caption">
+  <img class="thmb"  src="photo/items/thumbs/kessariiska-items-19.jpg" alt="1" />
+</a>
+
+<a href="photo/items/kessariiska-items-20.jpg" data-fancybox="gallery" data-caption="My caption">
+  <img class="thmb"  src="photo/items/thumbs/kessariiska-items-20.jpg" alt="2" />
+</a>
+
+<a href="photo/items/kessariiska-items-21.jpg" data-fancybox="gallery" data-caption="My caption">
+  <img class="thmb" src="photo/items/thumbs/kessariiska-items-21.jpg" alt="1" />
+</a>
+
+<a href="photo/items/kessariiska-items-22.jpg" data-fancybox="gallery" data-caption="My caption">
+  <img class="thmb"  src="photo/items/thumbs/kessariiska-items-22.jpg" alt="2" />
+</a>
+
+<a href="photo/items/kessariiska-items-23.jpg" data-fancybox="gallery" data-caption="My caption">
+  <img class="thmb"  src="photo/items/thumbs/kessariiska-items-23.jpg" alt="1" />
+</a>
+
+<a href="photo/items/kessariiska-items-24.jpg" data-fancybox="gallery" data-caption="My caption">
+  <img class="thmb"  src="photo/items/thumbs/kessariiska-items-24.jpg" alt="2" />
+</a>
+
+<a href="photo/items/kessariiska-items-25.jpg" data-fancybox="gallery" data-caption="My caption">
+  <img class="thmb"  src="photo/items/thumbs/kessariiska-items-25.jpg" alt="1" />
+</a>
+
+<a href="photo/items/kessariiska-items-26.jpg" data-fancybox="gallery" data-caption="My caption">
+  <img  class="thmb" src="photo/items/thumbs/kessariiska-items-26.jpg" alt="2" />
+</a>
+
+<a href="photo/items/kessariiska-items-27.jpg" data-fancybox="gallery" data-caption="My caption">
+  <img class="thmb"  src="photo/items/thumbs/kessariiska-items-27.jpg" alt="1" />
+</a>
+
+<a href="photo/items/kessariiska-items-28.jpg" data-fancybox="gallery" data-caption="My caption">
+  <img class="thmb"  src="photo/items/thumbs/kessariiska-items-28.jpg" alt="2" />
+</a>
+
+<a href="photo/items/kessariiska-items-29.jpg" data-fancybox="gallery" data-caption="My caption">
+  <img class="thmb"  src="photo/items/thumbs/kessariiska-items-29.jpg" alt="1" />
+</a>
+
+<a href="photo/items/kessariiska-items-30.jpg" data-fancybox="gallery" data-caption="My caption">
+  <img class="thmb"  src="photo/items/thumbs/kessariiska-items-30.jpg" alt="2" />
+</a>
+
+<a href="photo/items/kessariiska-items-31.jpg" data-fancybox="gallery" data-caption="My caption">
+  <img class="thmb" src="photo/items/thumbs/kessariiska-items-31.jpg" alt="1" />
+</a>
+
+<a href="photo/items/kessariiska-items-32.jpg" data-fancybox="gallery" data-caption="My caption">
+  <img class="thmb"  src="photo/items/thumbs/kessariiska-items-32.jpg" alt="2" />
+</a>
+
+<a href="photo/items/kessariiska-items-33.jpg" data-fancybox="gallery" data-caption="My caption">
+  <img class="thmb"  src="photo/items/thumbs/kessariiska-items-33.jpg" alt="1" />
+</a>
+
+<a href="photo/items/kessariiska-items-34.jpg" data-fancybox="gallery" data-caption="My caption">
+  <img class="thmb"  src="photo/items/thumbs/kessariiska-items-34.jpg" alt="2" />
+</a>
+
+<a href="photo/items/kessariiska-items-35.jpg" data-fancybox="gallery" data-caption="My caption">
+  <img class="thmb"  src="photo/items/thumbs/kessariiska-items-35.jpg" alt="1" />
+</a>
+
+<a href="photo/items/kessariiska-items-36.jpg" data-fancybox="gallery" data-caption="My caption">
+  <img  class="thmb" src="photo/items/thumbs/kessariiska-items-36.jpg" alt="2" />
+</a>
+
+<a href="photo/items/kessariiska-items-37.jpg" data-fancybox="gallery" data-caption="My caption">
+  <img class="thmb"  src="photo/items/thumbs/kessariiska-items-37.jpg" alt="1" />
+</a>
+
+<a href="photo/items/kessariiska-items-38.jpg" data-fancybox="gallery" data-caption="My caption">
+  <img class="thmb"  src="photo/items/thumbs/kessariiska-items-38.jpg" alt="2" />
+</a>
+
+<a href="photo/items/kessariiska-items-39.jpg" data-fancybox="gallery" data-caption="My caption">
+  <img class="thmb"  src="photo/items/thumbs/kessariiska-items-39.jpg" alt="1" />
+</a>
+
+<a href="photo/items/kessariiska-items-40.jpg" data-fancybox="gallery" data-caption="My caption">
+  <img class="thmb"  src="photo/items/thumbs/kessariiska-items-40.jpg" alt="2" />
+</a>
+
+<a href="photo/items/kessariiska-items-41.jpg" data-fancybox="gallery" data-caption="My caption">
+  <img class="thmb" src="photo/items/thumbs/kessariiska-items-41.jpg" alt="1" />
+</a>
+
+<a href="photo/items/kessariiska-items-42.jpg" data-fancybox="gallery" data-caption="My caption">
+  <img class="thmb"  src="photo/items/thumbs/kessariiska-items-42.jpg" alt="2" />
+</a>
+
+<a href="photo/items/kessariiska-items-43.jpg" data-fancybox="gallery" data-caption="My caption">
+  <img class="thmb"  src="photo/items/thumbs/kessariiska-items-43.jpg" alt="1" />
+</a>
+
+<a href="photo/items/kessariiska-items-44.jpg" data-fancybox="gallery" data-caption="My caption">
+  <img class="thmb"  src="photo/items/thumbs/kessariiska-items-44.jpg" alt="2" />
+</a>
+
+<a href="photo/items/kessariiska-items-45.jpg" data-fancybox="gallery" data-caption="My caption">
+  <img class="thmb"  src="photo/items/thumbs/kessariiska-items-45.jpg" alt="1" />
+</a>
+
+<a href="photo/items/kessariiska-items-46.jpg" data-fancybox="gallery" data-caption="My caption">
+  <img  class="thmb" src="photo/items/thumbs/kessariiska-items-46.jpg" alt="2" />
+</a>
+
+<a href="photo/items/kessariiska-items-47.jpg" data-fancybox="gallery" data-caption="My caption">
+  <img class="thmb"  src="photo/items/thumbs/kessariiska-items-47.jpg" alt="1" />
+</a>
+
+<a href="photo/items/kessariiska-items-48.jpg" data-fancybox="gallery" data-caption="My caption">
+  <img class="thmb"  src="photo/items/thumbs/kessariiska-items-48.jpg" alt="2" />
+</a>
+
+<a href="photo/items/kessariiska-items-49.jpg" data-fancybox="gallery" data-caption="My caption">
+  <img class="thmb"  src="photo/items/thumbs/kessariiska-items-49.jpg" alt="1" />
+</a>
+
+<a href="photo/items/kessariiska-items-50.jpg" data-fancybox="gallery" data-caption="My caption">
+  <img class="thmb"  src="photo/items/thumbs/kessariiska-items-50.jpg" alt="2" />
+
+<a href="photo/items/kessariiska-items-51.jpg" data-fancybox="gallery" data-caption="My caption">
+  <img class="thmb"  src="photo/items/thumbs/kessariiska-items-51.jpg" alt="2" />
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
 
 
 
