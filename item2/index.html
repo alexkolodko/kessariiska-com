@@ -5,51 +5,14 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
-	<link rel="stylesheet" type="text/css" href="js/jquery.fancybox.min.css">
+	<link rel="stylesheet" type="text/css" href="../js/jquery.fancybox.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
 
 
-<style type="text/css">
 
-a {
-  text-decoration: none;
-}
-
-@media all and (min-width: 800px) {
-  .fancybox-thumbs {
-    top: auto;
-    width: auto;
-    bottom: 0;
-    left: 0;
-    right : 0;
-    height: 95px;
-    padding: 10px;
-    box-sizing: border-box;
-    background: rgba(0, 0, 0, 0.3);
-  }
-  
-  .fancybox-show-thumbs .fancybox-inner {
-    right: 0;
-    bottom: 95px;
-  }
-
-}
-.ImageGrid > a {
-    padding: 4px;
-    -webkit-box-flex: 1;
-    -webkit-flex: 1 0 33.33%;
-    -ms-flex: 1 0 33.33%;
-    flex: 1 0 33.33%;
-}
-.thmb{
-    width:300px;
-    height:300px;
-    object-fit: cover;
-    overflow: hidden;
-}
-</style>
 </head>
 <body>
-<h1>fancybox gallery</h1>
+<h1>Предметная съёмка</h1>
 
 <div class="ImageGrid">
 <a href="photo/items/kessariiska-items-1.jpg" data-fancybox="gallery" data-caption="My caption">
@@ -255,27 +218,15 @@ a {
   <img class="thmb"  src="photo/items/thumbs/kessariiska-items-51.jpg" alt="2" />
 </a>
 
-  <a data-fancybox href="https://www.instagram.com/p/BZ5Vk58Bhfh/?taken-by=kessariiska" data-caption="<a href=&quot;https://www.instagram.com/kessariiska/&quot;>@kessariiska</a></span>">
-  Instagram photo
-</a>
 
 </div>
-<div id="instafeed">
-  loading
-</div>
 
 
-<script type="text/javascript" src="js/instafeed.min.js"></script>
+
 <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="js/jquery.fancybox.min.js"></script>
-<script type="text/javascript" src="js/retina.min.js"></script>
-<script type="text/javascript">
-    var feed = new Instafeed({
-        clientId: '3435690283'
-        accessToken: '3435690283.ba4c844.eab991149aee43c88010a9ddf1f06174' // your token
-    });
-    feed.run();
-</script>
+<script src="../js/jquery.fancybox.min.js"></script>
+<script type="text/javascript" src="../js/retina.min.js"></script>
+
 <!--
 <script type="text/javascript">
 $('[data-fancybox="gallery"]').fancybox({
