@@ -32,6 +32,11 @@ ul, ol, dl, figure,
   margin-bottom: 15px; }
 
 
+header { 
+    display: block;
+}
+
+
 a {
   text-decoration: none;
 }
