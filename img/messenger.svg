@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="29px" viewBox="0 0 28 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>float-messenger</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="float-messenger">
+            <g>
+                <path d="M14,0 C6.268,0 0,5.83973913 0,13.0434783 C0,17.1482609 2.03582609,20.8096522 5.2173913,23.2006087 L5.2173913,28.173913 L9.98426087,25.5414783 C11.2564348,25.8957391 12.6041739,26.0869565 14,26.0869565 C21.732,26.0869565 28,20.2472174 28,13.0434783 C28,5.83973913 21.732,0 14,0 L14,0 Z" id="Shape" fill="#0084FF"></path>
+                <polygon id="Path" fill="#FFFFFF" points="15.3913043 17.5652174 11.826087 13.7391304 4.86956522 17.5652174 12.5217391 9.39130435 16.173913 13.2173913 23.0434783 9.39130435"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -11,7 +11,6 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-    margin: 15px;
   font: 400 18px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #111;
   background-color: #fdfdfd;
@@ -41,6 +40,9 @@ a {
   text-decoration: none;
 }
 
+h1,h2,h3{
+  font-weight: 900;
+}
 
 
 @media all and (min-width: 800px) {
@@ -75,3 +77,37 @@ a {
     object-fit: cover;
     overflow: hidden;
 }
+
+
+  @media (min-width: 34em) {
+    .card-columns {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+}
+
+@media (min-width: 48em) {
+    .card-columns {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+    }
+}
+
+@media (min-width: 62em) {
+    .card-columns {
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
+    }
+}
+
+@media (min-width: 75em) {
+    .card-columns {
+        -webkit-column-count: 5;
+        -moz-column-count: 5;
+        column-count: 5;
+    }
+}
+.card{border: none;}
