@@ -11,7 +11,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: 400 18px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 400 1rem/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #111;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%;
@@ -35,6 +35,10 @@ header {
     display: block;
 }
 
+.navbar-brand{
+  font-size: 1rem;
+  font-weight: 900;
+}
 
 a {
   text-decoration: none;
@@ -79,6 +83,7 @@ h1,h2,h3{
 }
 
 
+
   @media (min-width: 34em) {
     .card-columns {
         -webkit-column-count: 2;
@@ -111,3 +116,7 @@ h1,h2,h3{
     }
 }
 .card{border: none;}
+
+.active {
+  border-bottom: #aaa 1px solid;
+}
