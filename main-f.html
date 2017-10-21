@@ -24,10 +24,15 @@
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="js/jquery.fancybox.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+      <script> 
+    $(function(){
+      $("#includedContent").load("header.html"); 
+    });
+    </script> 
 </head>
 <body>
 <header>
-
+<div id="includedContent"></div>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">Катерина Кессарийская</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
