@@ -117,3 +117,6 @@ h1,h2,h3{
 }
 .card{border: none;}
 
+.nav-link{
+  color: #007bff;
+}
