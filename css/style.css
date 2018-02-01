@@ -94,10 +94,11 @@ h1,h2,h3{
    border-radius: 60px;
 }
 
+
 .img-portfolio{
-  height: 200px;
   border-radius: 3px;
 }
+
 
 h1{
   font-size: 60px;
@@ -110,6 +111,10 @@ h1{
     -moz-column-count: 5;
     column-count: 5;
 }
+
+.img-portfolio{
+  height: 300px;
+}
 }
 
 /* DESKTOP LG*/
@@ -118,6 +123,9 @@ h1{
     -webkit-column-count: 4;
     -moz-column-count: 4;
     column-count: 4;
+}
+.img-portfolio{
+  height: 250px;
 }
 }
 
@@ -128,6 +136,9 @@ h1{
     -moz-column-count: 3;
     column-count: 3;
 }
+.img-portfolio{
+  height: 200px;
+}
 }
 
 /*MOBILE*/
@@ -136,6 +147,10 @@ h1{
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
+}
+
+.img-portfolio{
+  height: 200px;
 }
 
 h1{
