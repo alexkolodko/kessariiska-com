@@ -82,39 +82,67 @@ h1,h2,h3{
     overflow: hidden;
 }
 
-
-
-  @media (min-width: 34em) {
-    .card-columns {
-        -webkit-column-count: 2;
-        -moz-column-count: 2;
-        column-count: 2;
-    }
+.fill {
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
 }
 
-@media (min-width: 48em) {
-    .card-columns {
-        -webkit-column-count: 3;
-        -moz-column-count: 3;
-        column-count: 3;
-    }
+.avatar{
+   width: 120px; 
+   height: 120px;
+   border-radius: 60px;
 }
 
-@media (min-width: 62em) {
-    .card-columns {
-        -webkit-column-count: 4;
-        -moz-column-count: 4;
-        column-count: 4;
-    }
+.img-portfolio{
+  height: 200px;
+  border-radius: 3px;
 }
 
-@media (min-width: 75em) {
-    .card-columns {
-        -webkit-column-count: 5;
-        -moz-column-count: 5;
-        column-count: 5;
-    }
+h1{
+  font-size: 60px;
 }
+
+/* WIDE DESKTOP */
+@media (min-width: 1200px){
+.card-columns {
+    -webkit-column-count: 5;
+    -moz-column-count: 5;
+    column-count: 5;
+}
+}
+
+/* DESKTOP LG*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+.card-columns {
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+}
+}
+
+/*TABLETS*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+.card-columns {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+}
+}
+
+/*MOBILE*/
+@media (max-width: 767.98px){
+.card-columns {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+
+h1{
+  font-size: 40px;
+}
+}
+
 .card{border: none;}
 
 .nav-link{
